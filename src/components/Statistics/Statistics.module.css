@@ -1,0 +1,35 @@
+.statistics {
+    width: 100%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+.stat_list {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightslategray;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+.item:not(:first-child) {
+    border-left: 1px solid rgb(191, 216, 213);
+}
+
+.docx {
+    background-color: rgb(0, 128, 255);
+} 
+.pdf {
+    background-color: rgb(0, 255, 60);
+}
+.mp3 {
+    background-color: rgb(255, 0, 0);
+}
+.psd {
+    background-color: rgb(81, 0, 255);
+}
