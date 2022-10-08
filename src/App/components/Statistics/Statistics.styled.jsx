@@ -1,15 +1,15 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Title = styled.h2`
-    display: flex;
-    justify-content: center;
-    padding: 16px 0 16px 0;
-`
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 16px 0;
+`;
 export const StatList = styled.ul`
-    display: flex;
-    justify-content: space-around;
-    background-color: lightslategray;
-`
+  display: flex;
+  justify-content: space-around;
+  background-color: lightslategray;
+`;
 export const Item = styled.li`
     display: flex;
     flex-direction: column;
@@ -17,9 +17,9 @@ export const Item = styled.li`
     width: 100%;
     &:not(:first-child) {
     border-left: 2px solid rgb(191, 216, 213);
-`
+`;
 export const Span = styled.span`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
